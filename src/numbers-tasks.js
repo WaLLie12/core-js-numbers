@@ -636,7 +636,6 @@ function getCountOfOddNumbers(number) {
   for (let i = 0; i !== number + step; i += step) {
     if (i % 2 !== 0) {
       oddCount += 1;
-      
     }
   }
 
